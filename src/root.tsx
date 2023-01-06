@@ -11,6 +11,8 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';" />
+
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
