@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "blackflag-labs-home",
+  "short_name": "Blackflag Labs",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Public site for Blackflag Labs"
+}

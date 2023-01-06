@@ -1,0 +1,59 @@
+
+body {
+  font-family: "Century Gothic", "Lato", sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: black;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.et-hero-tabs header,
+.et-slide header {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+
+.et-hero-tabs h3,
+.et-slide h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tabs header,
+  .et-slide header {
+    font-size: 3rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+  }
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+::-moz-selection {
+  background: black;
+  color: white;
+}

@@ -1,0 +1,6 @@
+.brainstorm {
+    background-color: red;
+opacity: 0.8;
+background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 62.5px 62.5px, linear-gradient(#444cf7 5px, transparent 5px) 0 -2.5px, linear-gradient(90deg, #444cf7 5px, #e5e5f7 5px) -2.5px 0;
+background-size: 125px 125px, 125px 125px, 62.5px 62.5px, 62.5px 62.5px;
+}
