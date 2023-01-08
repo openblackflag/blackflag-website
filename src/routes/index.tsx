@@ -21,8 +21,6 @@ export default component$(() => {
   );
 });
 
-// export const stickyNav: StickyNav = new StickyNav();
-
 export const head: DocumentHead = {
   title: 'Blackflag Labs',
   meta: [

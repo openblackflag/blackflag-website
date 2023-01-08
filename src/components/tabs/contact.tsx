@@ -78,10 +78,22 @@ export default component$(() => {
           <div class="contact-vertical-line">
           </div>
           <div class="contact-column">
-            <div>+1 (802) 557-1699</div><br />
-            <div>blackflag@blackflag.dev</div><br />
-            <div>@blackflaglabs</div><br />
-            <div>@openblackflag</div><br />
+            <a
+              preventdefault:click
+              href="tel:802-557-1699"
+            >+1 (802) 557-1699</a><br /><br />
+            <a
+              preventdefault:click
+              href="mailto:blackflag@blackflag.dev"
+            >blackflag@blackflag.dev</a><br /><br />
+            <a
+              preventdefault:click
+              href="https://www.linkedin.com/in/bradly-ovitt-49185a22b/"
+            >@blackflaglabs</a><br /><br />
+            <a
+              preventdefault:click
+              href="https://github.com/openblackflag"
+            >@openblackflag</a><br /><br />
           </div>
         </div>  
       </div>
