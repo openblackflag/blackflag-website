@@ -26,7 +26,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: 'description',
-      content: 'Blackflag Labs Homepage',
+      content: 'Blackflag Labs is an innovative IT contracting company designing web solutions with cutting-edge latency and scalability.',
     },
   ],
 };
