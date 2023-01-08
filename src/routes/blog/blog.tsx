@@ -1,6 +1,6 @@
 import { component$, useClientEffect$, useStore, useStylesScoped$ } from '@builder.io/qwik';
 import { DocumentHead, useLocation } from '@builder.io/qwik-city';
-import styles from './flower.css?inline';
+import styles from './blog.css?inline';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -11,13 +11,6 @@ export default component$(() => {
     number: 20,
   });
 
-  useClientEffect$(({ cleanup }) => {
-    const timeout = setTimeout(() => (state.count = 1), 500);
-    cleanup(() => clearTimeout(timeout));
-
-    const internal = setInterval(() => state.count++, 7000);
-    cleanup(() => clearInterval(internal));
-  });
 
   return (
     <>
@@ -54,5 +47,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Qwik Flower',
+  title: 'Blackflag Labs Blog',
 };

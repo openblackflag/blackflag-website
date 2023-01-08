@@ -84,3 +84,20 @@
 	}
 }
  
+.contact-container {
+	display: flex;
+	justify-content: center;
+	margin-left: 75px;
+}
+
+.contact-vertical-line {
+	width: 2px;
+	background-color: grey;
+	height: 150px;
+}
+
+.contact-column {
+	margin: 10px 20px 0 20px; 
+	text-align: left; 
+	font-size: 16.4px;
+}

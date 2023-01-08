@@ -8,23 +8,25 @@ a {
   text-decoration: none;
 }
 
+.et-hero-tabs {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2em;
+  position: relative;
+}
+
 .et-hero-tabs,
 .et-slide {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative;
   background: black;
   text-align: center;
-  padding: 0 2em;
 }
 
 .et-hero-tabs header,
 .et-slide header {
   font-size: 2rem;
-  margin: 0;
   letter-spacing: 1rem;
 }
 
@@ -33,6 +35,11 @@ a {
   font-size: 1rem;
   letter-spacing: 0.3rem;
   opacity: 0.6;
+}
+
+.et-slide {
+  overflow: hidden;
+  justify-content: flex-start;
 }
 
 @media (min-width: 800px) {
