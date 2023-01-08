@@ -18,6 +18,8 @@ export default component$(() => {
         <meta property="og:url" content="https://www.blackflag.dev"/>
         <meta property="og:site_name" content="Blackflag"/>
 
+        <meta name="description" content="Blackflag Labs is an innovative IT contracting company designing web solutions with cutting-edge latency and scalability."></meta>
+
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>

@@ -40,6 +40,7 @@ export default component$(() => {
         }
       }}
     >
+      <h1 style="display: none;">Blackflag Labs | IT Contracting & Development</h1>
       <img
         src="/logo.svg"
         alt="Blackflag Logo"
